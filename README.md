@@ -34,15 +34,15 @@ We introduce a novel method that enables the effective use of a large language m
 
 We have tested the Python scripts on the following platforms: 
 
-- MacOs Sequoia with Python 3.9.
-- Ubuntu 22.04 with Python 3.9.
+- MacOs Sequoia with Python 3.9, 3.10, 3.11, 3.12, and 3.13.
+- Ubuntu 22.04 with Python 3.9, 3.10, 3.11, 3.12, and 3.13.
 
 ## Installation
 
 To download this repository and install the required python libraries, run the following commands:
 ```bash
 git clone https://github.com/Limmen/llm_incident_response_ndss26
-pip install llm_recovery==0.0.6
+pip install llm_recovery==0.0.7
 ```
 
 ## Execution 
