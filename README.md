@@ -47,6 +47,10 @@ To install the required python libraries, run the command
 ```bash
 pip install llm_recovery==0.0.13
 ```
+**Note** if you have Python 3.9 or older, run the following command instead:
+```bash
+pip install llm_recovery==0.0.7
+```
 
 ## Execution 
 
