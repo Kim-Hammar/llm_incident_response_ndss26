@@ -8,7 +8,7 @@ from datasets import load_dataset
 if __name__ == '__main__':
     seed = 99125
     set_seed(seed)
-    device_map = {"": 0}
+    device_map = "auto"
     tokenizer, llm = LoadLLM.load_llm(llm_name=constants.LLM.DEEPSEEK_14B_QWEN, device_map=device_map)
     dataset = load_dataset("kimhammar/CSLE-IncidentResponse-V1", data_files="examples_16_june.json")
     instructions = dataset["train"]["instructions"][0][0:5]
