@@ -39,10 +39,13 @@ We have tested the Python scripts on the following platforms:
 
 ## Installation
 
-To download this repository and install the required python libraries, run the following commands:
+To download this repository run the command:
 ```bash
 git clone https://github.com/Limmen/llm_incident_response_ndss26
-pip install llm_recovery==0.0.7
+```
+To install the required python libraries, run the command 
+```bash
+pip install llm_recovery==0.0.13
 ```
 
 ## Execution 
